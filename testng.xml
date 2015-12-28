@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite" verbose="1" configfailurepolicy="continue">
+    <test name="Cucumber Date Calculator Test 1" annotations="JDK">
+        <classes>
+            <class name="sampletest1"/>
+        </classes>
+    </test>
+</suite>
