@@ -3,7 +3,8 @@
 <suite name="Custom suite" verbose="1" configfailurepolicy="continue">
     <test name="Cucumber Date Calculator Test 1" annotations="JDK">
         <classes>
-            <class name="sampletest1"/>
+            <!--<class name="sampletest1"/>-->
+            <class name="com.cucumber.testng.examples.RunCukesByCompositionGrp1_Test1"/>
         </classes>
     </test>
 </suite>
